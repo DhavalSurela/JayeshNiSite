@@ -1,0 +1,53 @@
+.about {
+	position: relative;
+    border: black 4px solid;
+    border-radius: 8px;
+	text-align: justify;
+	margin: 50px 150px;
+	padding: 5px;
+}
+.main {
+	display: flex;
+	flex-direction: column;
+}
+.aboutheader {
+	position: absolute;
+    top: -36px; left: 21px;
+    background-color: white;
+    color: black;
+}
+.Grey {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+}
+.list {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+nav a {
+	color: white;
+	text-decoration: none;
+}
+.main {
+	text-align: center;
+}
+.head {
+	font-size: 25px;
+}
+img {
+	height: 300px;
+	object-fit: contain;
+}
+h1 {
+     text-align: center;
+	 color: white;
+}
+.table{
+	display: flex;
+	margin-left: 200px;
+	width: 100%;
+    margin-bottom: 1rem;
+    color: white;
+}
